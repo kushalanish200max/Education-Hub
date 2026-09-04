@@ -2,6 +2,7 @@ import { Sidebar } from "./Components/SideBar";
 import { DashboardPage } from "./Pages/DashBoard";
 import { CalendarPage } from "./Pages/Calendar";
 import { TasksPage } from "./Pages/Tasks";
+import { ExamPage } from "./Pages/Exam";
 import { Routes, Route, Navigate } from "react-router-dom";
 export default function StudyDashboard() {
   return (
@@ -17,6 +18,7 @@ export default function StudyDashboard() {
           <Route path="/Dashboard" element={<DashboardPage />}></Route>
           <Route path="/Calendar" element={<CalendarPage />}></Route>
           <Route path="/Tasks" element={<TasksPage />}></Route>
+          <Route path="/Exams" element={<ExamPage />}></Route>
         </Routes>
       </div>
     </div>

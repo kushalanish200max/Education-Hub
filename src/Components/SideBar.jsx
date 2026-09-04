@@ -17,7 +17,6 @@ const navItems = [
   { icon: LayoutDashboard, label: "Dashboard" },
   { icon: Calendar, label: "Calendar" },
   { icon: CheckSquare, label: "Tasks" },
-  { icon: BookOpen, label: "Subjects" },
   { icon: PenTool, label: "Exams" },
   { icon: FileText, label: "Notes" },
   { icon: BookOpen, label: "Resources" },
