@@ -179,7 +179,7 @@ export const TasksPage = () => {
               onDragLeave={handleDragLeave}
               onDrop={(e) => handleDrop(e, column.id)}
               className={`
-                w-4/19 bg-[#25283B] rounded-2xl p-4 flex flex-col shrink-0 
+                w-4/19 bg-[#25283B] rounded-2xl p-3.5 flex flex-col shrink-0 
                 border-2 transition-colors duration-200 max-h-[80vh]
                 ${activeDragCol === column.id ? "border-[#6C5DD3]/50 bg-[#25283B]/80" : "border-white/5"}
               `}

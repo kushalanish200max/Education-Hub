@@ -27,7 +27,7 @@ const navItems = [
 
 export const Sidebar = () => {
   return (
-    <aside className="w-64 bg-[#161B2B] p-6 flex flex-col border-r border-white/5">
+    <aside className="w-64 bg-[#161B2B] p-6 flex flex-col border-r border-white/5 shrink-0">
       {/* Logo Area */}
       <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mb-10 text-white shadow-lg shadow-purple-600/20">
         <GraduationCap className="w-7 h-7" />
